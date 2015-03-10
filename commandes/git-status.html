@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<head>
+    <title>git status</title>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet" type"text/css">
+</head>
+
+<body>
+    <nav>
+        <p href="../index.html">Menu</p>
+    </nav>
+
+    <h3 id="titreCommande">git status</h3>
+
+    <section class="descriptif">
+        <p>Il s'agit de la commande principale permettant de connaitre l'état des fichiers dans le dépot Git.</p>
+
+    </section>
+
+    <section class="affichage">
+        <h4>Syntaxe</h4>
+            <code>git status</code>
+        <h4>Affichage</h4>
+            <code>$ nano a.txt
+$ git status
+On branch master
+Untracked files:
+  (use "git add file..." to include in what will be committed)
+
+        a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)</code>
+    <section/>
+    
+    <h3 id="titreCommande">git status -u</h3>
+
+    <section class="descriptif">
+        <p>Tout comme git status, cette commande indique l'état des fichiers dans le dépot Git, ainsi que les fichiers non suivis. On peut utiliser un certain nombre de paramètres (optionel, par défaut sur all) : no, normal ou all </p>
+
+    </section>
+
+    <section class="affichage">
+        <h4>Syntaxe</h4>
+            <code>git status -u[paramètre]</code>
+        <h4>Affichage</h4>
+            <code> nano a.txt
+git status -uno
+On branch master
+nothing to commit (use -u to show untracked files)</code>
+    <section/>
+
+<h3 id="titreCommande">git status -b</h3>
+
+    <section class="descriptif">
+        <p>Tout comme git status, cette commande indique l'état des fichiers dans le dépot Git, ainsi que les branches du dépot (crées par les commit).</p>
+
+    </section>
+
+    <section class="affichage">
+        <h4>Syntaxe</h4>
+            <code>git status -b</code>
+        <h4>Affichage</h4>
+            <code>git status -b
+On branch gh-pages
+Untracked files:
+   (use "git add file..." to include in what will be committed)
+
+	a.txt
+	commandes/git-status.html
+nothing added to commit but untracked files present (use "git add" to track)
+</code>
+    <section/>
+
+
+    <footer>        
+        <p>Git Manual - Par pierre-cauletUVSQ</p>
+    </footer>
+
+</body>
