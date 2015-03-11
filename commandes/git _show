@@ -10,54 +10,55 @@
 		<p href="./index.html">Menu</p>
 	</nav>
 	
-	<h1 id="titreCommande">Git show --stat</h1>
+	<h3 id="titreCommande">Git show --stat</h3>
 	
 	<section class="descriptif">
-		<p>donne le nombre d'insertions et de déletions apportées sur le dernier commit en date</p>
+		<p>Il s'agit de la commande qui donne le nombre d'insertions et de déletions apportées sur le dernier commit en date</p>
 	
 	</section>
 		
-		<section id="affichage">
-		    <h2>Syntaxe</h2>
-		        <code>git show --stat</code>
-			<h2> Affichage </h2>
-		<code>
-		commit bb95b4158ec0c843d5d67b1c3c0f76511f88b396
-		Author: SuzanneAir <suzanneair@live.fr>
-		Date: Fri Mar 6 12:50:25 2015 +0100
+		<section class="affichage">
+		    <h4>Syntaxe</h4>
+		        <div class=code><code>git show --stat</code></div>
+		    <h4> Affichage </h4>
+		<div class=code><code>
+		commit bb95b4158ec0c843d5d67b1c3c0f76511f88b396 <br>
+		Author: SuzanneAir <suzanneair@live.fr> <br>
+		Date: Fri Mar 6 12:50:25 2015 +0100 <br>
 		
 		    modifications squelette
 			
-		squelette.html | 22 +++++++++++++---------
-		1 file changed, 13 insertions(+), 9 deletions(-)
-		</code>
+		squelette.html | 22 +++++++++++++--------- <br>
+		1 file changed, 13 insertions(+), 9 deletions(-) <br>
+		</code></div> <br>
 	</section> 
 	
-		<h1 id="titreCommande">Git show --pretty</h1>
+		<h3 id="titreCommande">Git show --pretty</h3>
 	
 	<section class="descriptif">
-		<p>donne le format du document et les dernières modifications apportées</p>
+		<p>Il s'agit de la commande qui donne le format du document et les dernières modifications apportées</p>
 	
 	</section>
 		
-		<section id="affichage">
-		    <h2>Syntaxe</h2>
-		        <code>git show --pretty</code>
-			<h2> Affichage </h2>
-		<code>Author: SuzanneAir <suzanneair@live.fr>
-		Date: Fri Mar 6 12:20:19 2015 +0100
+		<section class="affichage">
+		    <h4>Syntaxe</h4>
+		        <div class=code><code>git show --pretty</code></div>
+			<h4> Affichage </h4>
+		<div class=code><code>
+		Author: SuzanneAir <suzanneair@live.fr> <br>
+		Date: Fri Mar 6 12:20:19 2015 +0100 <br>
 		
 		    nom de la commande 
 			
-		diff --git a/squelette.html b/squelette.html 
-		index 9bb98c3..ee9b64c 100644
-		--- a/squelette.html 
-		+++ b/squelette.html
-		@@ -1,6 +1,6 @@
-		texte modifié dans le head 
-		@@ -9,7 +9,7 @@
-		texte modifié dans le premier titre h1
-		</code>
+		diff --git a/squelette.html b/squelette.html <br>
+		index 9bb98c3..ee9b64c 100644 <br>
+		--- a/squelette.html <br>
+		+++ b/squelette.html <br>
+		@@ -1,6 +1,6 @@ <br>
+		texte modifié dans le head <br>
+		@@ -9,7 +9,7 @@ <br>
+		texte modifié dans le premier titre h1 <br>
+		</code></div>
 	</section> 
 	
 	<footer>		
