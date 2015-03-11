@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Git show --stat</title>
+	<meta charset="UTF-8">
+	<link href="css/commandes.css" rel="stylesheet" type"text/css">
+</head>
+
+<body>
+	<nav>
+		<p href="./index.html">Menu</p>
+	</nav>
+	
+	<h1 id="titreCommande">Git show --stat</h1>
+	
+	<section class="descriptif">
+		<p>donne le nombre d'insertions et de déletions apportées sur le dernier commit en date</p>
+	
+	</section>
+		
+		<section id="affichage">
+		    <h2>Syntaxe</h2>
+		        <code>git show --stat</code>
+			<h2> Affichage </h2>
+		<code>
+		commit bb95b4158ec0c843d5d67b1c3c0f76511f88b396
+		Author: SuzanneAir <suzanneair@live.fr>
+		Date: Fri Mar 6 12:50:25 2015 +0100
+		
+		    modifications squelette
+			
+		squelette.html | 22 +++++++++++++---------
+		1 file changed, 13 insertions(+), 9 deletions(-)
+		</code>
+	</section> 
+	
+		<h1 id="titreCommande">Git show --pretty</h1>
+	
+	<section class="descriptif">
+		<p>donne le format du document et les dernières modifications apportées</p>
+	
+	</section>
+		
+		<section id="affichage">
+		    <h2>Syntaxe</h2>
+		        <code>git show --pretty</code>
+			<h2> Affichage </h2>
+		<code>Author: SuzanneAir <suzanneair@live.fr>
+		Date: Fri Mar 6 12:20:19 2015 +0100
+		
+		    nom de la commande 
+			
+		diff --git a/squelette.html b/squelette.html 
+		index 9bb98c3..ee9b64c 100644
+		--- a/squelette.html 
+		+++ b/squelette.html
+		@@ -1,6 +1,6 @@
+		texte modifié dans le head 
+		@@ -9,7 +9,7 @@
+		texte modifié dans le premier titre h1
+		</code>
+	</section> 
+	
+	<footer>		
+		<p>Git Manual - Par SuzanneAir</p>
+	</footer>
+	
+</body>
