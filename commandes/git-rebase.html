@@ -1,0 +1,122 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>git rebase</title>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Git rebase</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div id="corps">
+        <h3 id="titreCommande">git rebase</h3>
+        <section class="descriptif">
+                <p>la fonction git rebase est là pour changer le commit de base d’une branche, c’est-à-dire son point de départ.</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code> git rebase master gh-pages </code>
+
+                        <div class="code">
+                            <code>
+                            First, rewinding head to replay your work on top of it...<br>
+                            Applying: word 1<br>
+                            Applying: word 2<br>
+                            Applying: word 3<br>
+                            </code>
+                        </div>
+        </section>
+         <h3 id="titreCommande">git rebase --abort</h3>
+          <section class="descriptif">
+                <p>Cette fonction permet d'interrompre l'opération de rebase et de remettre le HEAD à la branche originale.
+               Si la <branche> a été fournie lors du commencement du rebase, alors le HEAD sera remis à la <branche> .
+                Sinon, le HEAD sera remis à où il était quand l'opération de rebase a été commencée.</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git rebase --abort</code>
+
+                        <div class="code">
+                            <code>C:\Users\Adam\Documents\GitHub\test [<de5b124...>:REBASE +0 ~0 -0 !1 : +0 ~0 -0 !1]> git rebase --abort <br>
+                                C:\Users\Adam\Documents\GitHub\test [gh-pages]>
+                            </code>
+                        </div>
+        </section>
+        <h3 id="titreCommande">git rebase --onto </h3>
+          <section class="descriptif">
+                <p>Cette commande permet de redéfinir un nouveau point d'origine pour tout les nouveaux commits.
+              Ce nouveau point peut être initialisé à partir de n'importe quelle commit valide.></p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code> git rebase --onto <new base> </code>
+
+                        <div class="code">
+                            <code>First rewinding head to replay your work on top of it...<br>
+                                +Applying: F2a<br>
+                                +Applying: F2b<br>
+                            </code>
+                        </div>
+        </section>
+        <h3 id="titreCommande">git rebase -i</h3>
+          <section class="descriptif">
+                <p>Cette commande présente une liste de tous les commits qui sont sur le point d'être "rebase".
+              Cela permet à l'utilisateur de modifier la liste avec qu'elle ne soit "rebase". Cette commande
+              peut également être utilisée pour séparer certains commits.</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git rebase -i</code>
+
+                        <div class="code">
+                            <code> pick 01d1124 Adding license
+                            +pick 6340aaa Moving license into its own file
+                            +pick ebfd367 Jekyll has become self-aware.
+                            +pick 30e0ccb Changed the tagline in the binary, too.
+                            +
+                            +# Rebase 60709da..30e0ccb onto 60709da
+                            +#
+                            +# Commands:
+                            +#  p, pick = use commit
+                            +#  e, edit = use commit, but stop for amending
+                            +#  s, squash = use commit, but meld into previous commit
+                            +#
+                            +# If you remove a line here THAT COMMIT WILL BE LOST.
+                            +# However, if you remove everything, the rebase will be aborted.</code>
+                        </div>
+        </section>
+        <h3 id="titreCommande">git rebase --continue</h3>
+          <section class="descriptif">
+                <p>La commande git rebase --continue permet de recommencer le processus rebasage après avoir résolu un conflit de fusion. </p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code> git rebase --continue </code>
+
+                        <div class="code">
+                            <code>...</code>
+                        </div>
+        </section>
+
+
+    </div>
+    <footer>
+    <p> © Groupe d'IN202 2014-2015 UVSQ - Lebataclan, LowD, Mr-Nico-972</p>
+    </footer>
+    </body>
+
+</html>
