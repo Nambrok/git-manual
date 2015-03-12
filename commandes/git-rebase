@@ -47,7 +47,7 @@
             <h4>Syntaxe :</h4>
                         <code>git rebase --abort</code>
 
-                        <div class="code"> : +0
+                        <div class="code">
                             <code>C:\Users\Adam\Documents\GitHub\test [<de5b124...>:REBASE +0 ~0 -0 !1 : +0 ~0 -0 !1]> git rebase --abort <br>
                                 C:\Users\Adam\Documents\GitHub\test [gh-pages]>
                             </code>
