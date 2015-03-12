@@ -28,18 +28,22 @@
 
     <section class="affichage">
         <h4>Syntaxe</h4>
+        <div class="code">
             <code>- git merge -m</code>
+        </div>
         <h4>Utlisation</h4>
+        <div class="code">
              <code> git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]</br>
         [-s <strategy>] [-X <strategy-option>] [-S[<key-id>]]</br>
         [--[no-]rerere-autoupdate] [-m <msg>] [<commit>…]</code>
+        </div>
     <section/>
 
 
     <section class="affichage">
         
-			<code><h4>- git stash apply </h4></code>
-            <section>
+			<h4>- git stash apply </h4>
+            <section class="descriptif">
             Cette commande règle le message de commit à être utilisée pour le merge commit ( dans le cas où une est créé ). 
         Si --log est spécifié, un shortlog des commits fusionnés sera ajouté au message spécifié.
         La commande git fmt-merge-msg peut être utilisé pour donner une bonne valeur par défaut à git merge pour des invocations automatisé .
