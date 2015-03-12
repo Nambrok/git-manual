@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-	<title>Git show --stat</title>
+	<title>Git show </title>
 	<meta charset="UTF-8">
 	<link href="css/commandes.css" rel="stylesheet" type"text/css">
 </head>
@@ -9,6 +9,84 @@
 	<nav>
 		<p href="./index.html">Menu</p>
 	</nav>
+
+<h3 id="titreCommande">Git show </h3>
+	
+	<section class="descriptif">
+		<p>Il s'agit de la commande qui permet de visualiser un ou plusieurs objets </p>
+	
+	</section>
+		
+		<section class="affichage">
+		    <h4>Syntaxe</h4>
+		        <div class=code><code>git show </code></div>
+		    <h4> Affichage </h4>
+		<div class=code><code>
+		commit 7b9e0a9377ac070450c854ca0211fa4f8b39c45e <br>
+	        Merge: b8bd625 f4c193a <br>
+		Author: Utilisateur user@lubuntu-13.04  <br>
+		Date:   Thu Mar 12 09:36:58 2015 +0100 <br>
+		
+		   Merge avec in202-uvsq/git-manual <br>
+		</code></div> <br>
+	</section> 
+	
+			<h3 id="titreCommande">Git show < commit > </h3>
+	
+	<section class="descriptif">
+		<p>Il s'agit de la commande qui permet de visualiser un commit en particulier </p>
+	
+	</section>
+		
+		<section class="affichage">
+		    <h4>Syntaxe</h4>
+		        <div class=code><code>git show < commit > </code></div>
+			<h4> Affichage </h4>
+		<div class=code><code>
+		Author: Moumzy <thibault_100@hotmail.fr> <br>
+	        Date:   Thu Mar 12 09:36:58 2015 +0100 <br>
+		
+		    
+		commit 7b9e0a9377ac070450c854ca0211fa4f8b39c45e <br>
+	        Merge: b8bd625 f4c193a <br>
+		Author: Utilisateur user@lubuntu-13.04  <br>
+		Date:   Thu Mar 12 09:36:58 2015 +0100 <br>
+		
+		   X files modified, X suppressions, X deletions
+		</code></div>
+	</section> 
+
+		<h3 id="titreCommande">Git show <branche> : < fichier > </h3>
+	
+	<section class="descriptif">
+		<p>Il s'agit de la commande qui permet de visualiser un document en particulier en précisant la branche ou il se situe. </p>
+	
+	</section>
+		
+		<section class="affichage">
+		    <h4>Syntaxe</h4>
+		        <div class=code><code>git show < branche > : < fichier > </code></div>
+			<h4> Affichage </h4>
+		<div class=code><code>
+		Author: Moumzy <thibault_100@hotmail.fr> <br>
+	        Date:   Thu Mar 12 09:49:52 2015 +0100 <br>
+		
+		   
+			
+		"description du terminal" <br>
+		"description du terminal" <br>
+		"description du terminal" <br>
+		"description du terminal" <br>
+		"description du terminal" <br>
+		texte modifié dans le head <br>
+		"description du terminal" <br>
+		"description du terminal" <br>
+		</code></div>
+	</section> 
+
+
+
+
 	
 	<h3 id="titreCommande">Git show --stat</h3>
 	
@@ -62,7 +140,7 @@
 	</section> 
 	
 	<footer>		
-		<p>Git Manual - Par SuzanneAir</p>
+		<p>Git Manual - Par SuzanneAir & Moumzy </p>
 	</footer>
 	
 </body>
