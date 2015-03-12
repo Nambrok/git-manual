@@ -2,11 +2,7 @@
 <head>
 	<title>Git fetch</title>
 	<meta charset="UTF-8">
-<<<<<<< HEAD
 	 <link href="../css/style.css" rel="stylesheet" type="text/css">
-=======
-	<link href="../css/style.css" rel="stylesheet" type"text/css">
->>>>>>> e17bad7891910a13c85014f1e5a0cc5c4d1410b6
 </head>
 
 <body>
@@ -21,55 +17,72 @@
                 </nav>
         </div>
         <div id="corps">
+			
+	<h3 id="titreCommande">git fetch</h3>
+	
+	  <section class="descriptif">
+                <p>Description</p>
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
 		
 	<h3 id="titreCommande">git fetch -v</h3>
 	
 	<section class="descriptif">
 		<p>Cette commande importe des commits à partir d'un répo
 		 à distance dans votre répo local. Les commits résultants sont
-<<<<<<< HEAD
 		 stockés sous forme de branches à distance à la place des
 		  branches locales avec lesquelles vous avez travaillé.</p>
-=======
-		  stockés sous forme de branches à distance à la place des
-		   branches locales avec lesquelles vous avez travaillé.</p>
-		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
-	
-	<section class="exemple">
-		<p>git fetch</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
->>>>>>> e17bad7891910a13c85014f1e5a0cc5c4d1410b6
 	</section>
 	
 	<section class="affichage">
 		<h4>Syntaxe :</h4>
-			 <code>Syntaxe d'utilisation de la commande</code>	
-		
+			 <code>git fetch -v</code>	
+
 		<div class="code">
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+			<code>git log<br>
+			commit da03db5f132cb067dacf8edbc83a1ba093579e1e <br>
+			Author: Utilisateur <adress.mail@mail.com><br>
+			Date:   Thu Mar 12 09:44:59 2015 +0100<br><br>
+
+			Ajout de 1.txt<br><br>
+
+			commit 21e64230bfdffb50fb761aa273071d1066081d7f<br>
+			Author: Utilisateur <adress.mail@mail.com><br>
+			Date:   Thu Mar 12 10:50:09 2015 +0100<br><br>
+
+			Initial commit<br><br>
+			
+			git fetch -v<br>
+			WARNING: gnome-keyring:: couldn't connect to: /run/user/user/keyring-VgdJhF/pkcs11: No such file or directory<br>
+			POST git-upload-pack (354 bytes)<br>
+			remote: Counting objects: 3, done.<br>
+			remote: Compressing objects: 100% (2/2), done.<br>
+			remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0<br>
+			Unpacking objects: 100% (3/3), done.<br>
+			From https://github.com/nomUtilisateur/repertoire<br>
+				1edc0ec..cbd1bd6  master     -> origin/master<br><br>
+				
+			git log<br>
+			commit b23b000a78f122a908e0c7e35f6c0457bfaba109<br>
+			Author: Utilisateur <adressMail><br>
+			Date:   Thu Mar 12 09:55:10 2015 +0100<br><br>
+
+			Modif<br>
+
+			[...]
+			</code>
 		</div>
 	
-<<<<<<< HEAD
 	
 	<h3 id="titreCommande">git fetch --all</h3>
-=======
-	<h1 id="titreCommande">git fetch --all</h1>
-	
-	<section class="descriptif">
-		<p>Cette commande permet de "fetch" toutes les branches à distance.</p>
-		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
-	
-	<section class="exemple">
-		<p>git fetch --all</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
->>>>>>> e17bad7891910a13c85014f1e5a0cc5c4d1410b6
 	
 	  <section class="descriptif">
                 <p>Description</p>
@@ -85,7 +98,6 @@
         </section>
 	
 	
-<<<<<<< HEAD
 	<h3 id="titreCommande">git fetch --dry-run</h3>
 	
 	  <section class="descriptif">
@@ -101,20 +113,6 @@
                             <code>Exemple d'affichage dans le terminal</code>
                         </div>
         </section>
-=======
-	<section class="descriptif">
-		<p>Cette commande vous montre le résultat d'un "fetch" en ne
-		modifiant rien, elle est utilisée simplement pour simuler une action.</p>
-		<h2>Syntaxe</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
-	
-	<section class="exemple">
-		<p>git fetch --dry-run</p>
-		<h2>Affichage</h2>
-		<code>Exemple de l'affichage de la commande dnas le terminal</code>
-	</section>
->>>>>>> e17bad7891910a13c85014f1e5a0cc5c4d1410b6
 	
 	
 	<h3 id="titreCommande">git fetch -t</h3>
