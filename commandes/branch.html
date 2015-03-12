@@ -1,51 +1,152 @@
-<!DOCTYPE HTML>
-<head>
-	<title>Commandes branch --set-upstream</title>
-	<meta charset="UTF-8">
-	<link href="css/commandes.css" rel="stylesheet" type"text/css">
-</head>
+<!doctype HTML>
+<html>
+    <head>
+        <title> branch</title>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
 
-<body>
-	<nav>
-		<p href="./index.html">Menu</p>
-	</nav>
-	<h1 id="titreCommande">Commandes branch --set-upstream</h1>
+    <body>
+        <div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>git branch</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div id="corps">
+		<section class="descriptif">
+				<h4> Definition de branch</h4>
+                <p>Description</p>
+              Git branch est la commande qui permet de lister, créer ou detruire des branches.
+            Sans argument, la commande liste simplement les branches existantes et met en valeur la branche courante avec une astérisque.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch</code>
+								
+                        <div class="code">
+                            <code>* master</code>
+                        </div>
+        </section>
+		
+		<section class="descriptif">
+				<h4> Git branch --track</h4>
+                <p>Description</p>
+              Git branch --track </code> (ou -t) permet, quand vous créez une nouvelle branche de marquer cette branche comme branche fille de la branche courante.
+            Cette configuration permettra à <code>git status</code> et <code>git branch -v</code> de montrer la relation entre les branches.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch -- track</code>
+								
+                        <div class="code">
+                            <code>* master</code>
+                        </div>
+        </section>
+		
+		
+        <section class="descriptif">
+				<h4> branch --set_upstream</h4>
+                <p>Description</p>
+              La commande branch --set-upstream montre la branche sur laquelle on travail.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch --set-upstream</code>
+								
+                        <div class="code">
+                            <code>* master</code>
+                        </div>
+        </section>
+		
+        <section class="descriptif">
+				<h4> branch_upstream-to/ -u</h4>
+                <p>Description</p>
+              On utilise la commande "branch --set-upstream-to=" ou "-u" pour creer une nouvelle branche master d'un fork creer à partir d'une branche master
+		locale.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch --set-uptream-to=my_fork/master</code>
+								
+                        <div class="code">
+                            <code>Branch gh-pages set up to track remote branch master from my_fork.</code>
+                        </div>
+        </section>
+
+		<section class="descriptif">
+				<h4> branch -m</h4>
+                <p>Description</p>
+             Permet de changer ou renomer une branche et son reflog correspondant
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code></code>
+								
+                        <div class="code">
+                            <code></code>
+                        </div>
+        </section>
+    
 	<section class="descriptif">
-		<p>Si la branche indiquée n'existe pas encore ou si "--force" a été utilisé, alors la commande "git branch --set-upstream" agit exactement comme "--track". 
-		Sinon elle reste fixe jusqu'à la configuration comme "--track" resterait lors de la création de la branche,
-		sauf si les points de la branche n'ont pas été modifié .</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>git branch --set-upstream</p>
-		<h2>Affichage</h2>
-		<p>* master</p>
-	</section>
-	
-	<h1 id="titreCommande">Commandes "git branch --set-upstream-to"</h1>
+				<h4> branch -M</h4>
+                <p>Description</p>
+             Permet de changer ou renomer une branche même si une branche avec le même nom existe déjà.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code></code>
+								
+                        <div class="code">
+                            <code></code>
+                        </div>
+        </section>
+    
 	<section class="descriptif">
-		<p>On considère la configuration <branchname> le dépistage d'informations si <upstream> est considéré comme <branchname> 
-		la branche amont. Si aucun <branchname> n'est spécifié, alors "git branch --set-upstream-to" manque à ses engagements à la branche actuelle.</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<p>Exemple de l'affichage de la commande dnas le terminal</p>
-	</section>
-	
-	<h1 id="titreCommande">Commandes "git branch -u"</h1>
+				<h4> branch -d</h4>
+                <p>Description</p>
+             Permet d'effacer une branche.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code></code>
+								
+                        <div class="code">
+                            <code></code>
+                        </div>
+    </section>
+    
 	<section class="descriptif">
-		<p>C'est la même chose que "git branch --set-upstream"</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<p>Exemple de l'affichage de la commande dnas le terminal</p>
-	</section>
-	<footer>		
-		<p>Git Manual - Melanie13340</p>
-	</footer>
-	
-</body>
+				<h4> branch -d</h4>
+                <p>Description</p>
+             Permet d'effacer une branche ne correspondant pas au status.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code></code>
+								
+                        <div class="code">
+                            <code></code>
+                        </div>
+        </section>
+    
+
+    </div>
+    <footer>
+    <p> © Groupe d'IN202 2014-2015 UVSQ - CANAL Mélanie, Stefou</p>
+    </footer>
+    </body>
+
+</html>
