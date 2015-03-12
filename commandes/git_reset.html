@@ -6,11 +6,24 @@
 </head>
 
 <body>
-	<nav>
-		<p href="./index.html">Menu</p>
-	</nav>
+	<div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Nom de la commande</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        
+        <div id="corps">
 	
-	<h1 class="titreCommande">git_reset --soft</h1>
+	<h3>git reset</h3>
+	
+	
+	
+	<h1 class="t>git_reset --soft</h1>
 	
 	<section class="descriptif">
 		<p>Descriptif de la commande détaillé</p>
@@ -24,15 +37,16 @@
 	<br>
 	
 	<section class="affichage">
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>git reset --soft</code>
-		<h2>Affichage</h2>
+		
 			<p>Par exemple, pour défaire et refaire un commit</p>
-			<code> git commit ...
+		<div class="code">	<code> git commit ...
  			git reset --soft HEAD^      
  			edit                        
  			git commit -a -c ORIG_HEAD  
 			</code>
+			</div>
 	<section/>
 	
 	<h1 class="titreCommande">git reset --mixed</h1>
@@ -42,10 +56,10 @@
 	</section>
 	
 	<section class="affichage">
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>git reset --mixed</code>
-		<h2>Affichage</h2>
-			<code>$ git add Nouveau_dossier.html <br/>
+		
+		<div class="code"> 	<code>$ git add Nouveau_dossier.html <br/>
 				  $ git status <br/>
 				  <i>On branch master<br/>
 					 Changes to be committed:</br>
@@ -56,20 +70,22 @@
 					 Untracked files :</br>
 					(use git add < file >..." to include in what will be committed)</br>
 					 Nouveau_dossier.html</br>
-					 nothing added to commit but untracked files present (use "git add" to track)</code>
+					 nothing added to commit but untracked files present (use "git add" to track)</code> </div>
 	<section/>
 	
 	<h1 class="titreCommande">git reset --hard</h1>
 	
 	<section class="descriptif">
-		<p>Descriptif de la commande détaillé</p>
+		<p>Supprime toutes les modifications par rapport au dernier commit. Cela revient au même que d'entrer la commande reset --hard HEAD.<br>
+		La commande reset --hard HEAD^ supprime le dernier commit.<br>
+		La commande git reset --hard v1.0 supprime tous les commits depuis la v1.0.</p>
 	</section>
 	
 	<section class="affichage">
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>git reset --hard</code>
-		<h2>Affichage</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		
+		<div class="code">	<code>HEAD is now at 20cab59 Mege pull request #59 from yobero/gh-pages</code> </div>
 	<section/>
 	
 	<h1 class="titreCommande">git reset --keep</h1>
@@ -79,12 +95,12 @@
 	</section>
 	
 	<section class="affichage">
-		<h2>Syntaxe</h2>
+		<h4>Syntaxe</h4>
 			<code>git reset --keep</code>
-		<h2>Affichage</h2>
-			<code>Exemple de l'affichage de la commande dnas le terminal</code>
+		
+		
 	<section/>
-	
+	</div>
 	<footer>		
 		<p>Git Manual - Par Boubacar Kane, chaouki08, ThomasBrebant et Iwantaponey</p>
 	</footer>
