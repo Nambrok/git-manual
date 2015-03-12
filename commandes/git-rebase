@@ -19,7 +19,59 @@
         </div>
         <div id="corps">
         <section class="descriptif">
-                <p>Description</p>
+                <p>git rebase</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --abort</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --onto</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase -i</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>Syntaxe d'utilisation de la commande</code>
+
+                        <div class="code">
+                            <code>Exemple d'affichage dans le terminal</code>
+                        </div>
+        </section>
+          <section class="descriptif">
+                <p>git rebase --continue </p>
               <!--Description de la commande -->
         </section>
 
