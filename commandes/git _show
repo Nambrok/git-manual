@@ -7,12 +7,12 @@
 
 <body>
 	<div id="titre"> 
-		<h1> <a href="index.html"> <img src="./images/logo.png" alt="logo" > </img> </a> <br>Le fantastique guide de Git</h1>
+		<h1> <a href="../index.html"> <img src="./images/logo.png" alt="logo" > </img> </a> <br>Le fantastique guide de Git</h1>
 	</div>
 	<div id="nav">
 		<nav>
 			<ul>
-				<li class="nolastmen"><a href="index.html">Accueil</a></li>
+				<li class="nolastmen"><a href="../index.html">Accueil</a></li>
 				<li><a href="../commandes.html">Commandes Git</a></li>
 			</ul>
 		</nav>
