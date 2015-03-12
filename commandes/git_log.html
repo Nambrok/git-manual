@@ -1,41 +1,41 @@
-<!DOCTYPE HTML>
-<head>
-	<title>Git log</title>
-	<meta charset="UTF-8">
-	<link href="css/commandes.css" rel="stylesheet" type"text/css">
-</head>
+<!doctype HTML>
+<html>
+    <head>
+        <title>Git log</title>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
 
-<body>
-	<nav>
-		<p href="./index.html">Menu</p>
-	</nav>
-	
-	<h1 id="titreCommande">Git log</h1>
-	
-	<section class="descriptif">
-		<p>Git log vous donne la liste des commits qui ont été effectués dans le répertoire. Cela vous permettra de voir les modifications qui ont été faites.
-		Cela vous donnera aussi le numéro de commit qui pourra vous servir pour d'autres commandes.
-		</p>
-		
-	</section>
-	
-	<section id="affichage">
-		<h2>Syntaxe</h2>
-			<code>git log</code>
-		<h2>Affichage</h2>
-			<code>
-			commit 62cffc0f77d751afb08d87973dc8807e44c56ba7
-			Merge:9da4542 5fcc6c5
-			Author: Da**** T*****<d*****.******@gmail.com>
-			Date: Mon Mar 9 07:37:29 2015 +0100
-				Résolution conflit dans git-revert.html, et merge
-			</code>
-			
-			
-			
-	<section/>
-	
-	<h1 id="titreCommande">Git log --full-diff</h1>
+    <body>
+        <div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png" alt="logo" > </img> </a> <br>Git log</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div id="corps">
+        <section class="descriptif">
+                <p>Git log vous donne la liste des commits qui ont été effectués dans le répertoire. Cela vous permettra de voir les modifications qui ont été faites. Cela vous donnera aussi le numéro de commit qui pourra vous servir pour d'autres commandes.</p>
+              <!--Description de la commande -->
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git log</code>
+
+                        <div class="code">
+                            <code>
+                            commit 62cffc0f77d751afb08d87973dc8807e44c56ba7
+                            Merge:9da4542 5fcc6c5
+                            Author: Da**** T*****<d*****.******@gmail.com>
+                            Date: Mon Mar 9 07:37:29 2015 +0100
+                            Résolution conflit dans git-revert.html, et merge</code>
+                        </div>
+        </section>
 	
         <section class="descriptif">
                 <p>Contrairement au git log -p, qui ne montre que les diffs entre les différents commits d'une branche,
@@ -43,24 +43,24 @@
                 donc toute la différence, d'où son nom. </p>
         </section>
         
-        <section id="affichage">
-                <h2>Syntaxe</h2>
+        <section class="affichage">
+                <h4>Syntaxe</h4>
                         <code>git log --full-diff</code>
-                <h2>Affichage</h2>
+                <div class="code">
                         <code>
                         user@user-VirtualBox:~/Bureau/Documents/git$ git log --full-diff
                         commit 647145e1e748df6eb8b3a128293a95e8ec13d3e7
                         Author: user <protosspaspris@users.noreply.github.com>
                         Date: Wed Feb 18 16:45:46 2015 +0100
                         </code>
+                </div>
+        </section>
                         
                         
-                        
-        <section/>
+    </div>
+    <footer>
+    <p> © Groupe d'IN202 2014-2015 UVSQ - Par @Ousam, @Protosspaspris</p>
+    </footer>
+    </body>
 
-	
-	<footer>		
-		<p>Git Manual - Par @Ousam, @Protosspaspris</p>
-	</footer>
-	
-</body>
+</html>
