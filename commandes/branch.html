@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html>
     <head>
-        <title> ranch</title>
+        <title> branch</title>
         <meta charset="UTF-8">
         <link href="../css/style.css" rel="stylesheet" type="text/css">
     </head>
@@ -18,6 +18,39 @@
                 </nav>
         </div>
         <div id="corps">
+		<section class="descriptif">
+				<h4> Definition de branch</h4>
+                <p>Description</p>
+              Git branch est la commande qui permet de lister, créer ou detruire des branches.
+            Sans argument, la commande liste simplement les branches existantes et met en valeur la branche courante avec une astérisque.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch</code>
+								
+                        <div class="code">
+                            <code>* master</code>
+                        </div>
+        </section>
+		
+		<section class="descriptif">
+				<h4> Git branch --track</h4>
+                <p>Description</p>
+              Git branch --track </code> (ou -t) permet, quand vous créez une nouvelle branche de marquer cette branche comme branche fille de la branche courante.
+            Cette configuration permettra à <code>git status</code> et <code>git branch -v</code> de montrer la relation entre les branches.
+        </section>
+
+        <section class="affichage">
+            <h4>Syntaxe :</h4>
+                        <code>git branch -- track</code>
+								
+                        <div class="code">
+                            <code>* master</code>
+                        </div>
+        </section>
+		
+		
         <section class="descriptif">
 				<h4> branch --set_upstream</h4>
                 <p>Description</p>
