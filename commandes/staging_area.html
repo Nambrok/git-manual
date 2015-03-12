@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Les différents répertoires dans git</title>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon-96x96.png">
+    </head>
+
+    <body>
+        <div id="titre"> 
+            <h1> <a href="../index.html"> <img src="../images/logo.png"alt="logo" > </img></a><br>Les différents répertoires dans git</h1>
+        </div>
+        <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div id="corps">
+        <section class="descriptif">
+                <h4>La working directory</h4>
+				<p>La working directory représente le dossier dans le quel vous travaillez actuellement, avec les versions de la branche actuelle de votre travail. Il vous est propre et est mis à jour avec les versions du projet éloigné à l'aide des commandes <code><a href="./git_push.html">push</a></code> et <code><a href="./git_pull.html">pull</a></code>.</p>
+        </section>
+		
+		<section class="descriptif">
+			<h4>La staging area</h4>
+			<p>C'est le fichier qui contient les fichiers et modifications apportés qui sont en attente d'un commit.<br>
+				C'est-à-dire qui on été ajouté à l'aide de la commande <code><a href="./git_add.html">add</a></code>.<br>
+				Ou modifié avec d'autres commandes tel que <code><a href="./git_mv.html">git mv</a></code> et <code><a href="./git_rm.html">git rm</a></code>.<br>
+				Après un simple calcul de différences, <code>git</code> peut ainsi savoir si les dernières modifications ont été commités.
+			</p>
+		</section>
+
+		<section class="descriptif">
+			<h4>Le git repository</h4>
+			<p>
+			Le git repository (ou <i>history tree</i>) est le fichier <i>.git</i> habituellement caché, il contient l'historique des commits du projet.
+			Il garde en mémoire tout les changements qui ont été commités.
+			C'est ce qui est cloné quand on clone la version d'un "serveur".
+			</p>
+		</section>
+		
+		<section class="descriptif">
+			<h4>Répertoire nu, ou <i>bare repository</i></h4>
+			<p>
+				Un répertoire nu est le type de répertoire que l'on retrouve sur un serveur d'échange. (Par exemple sur github).
+				<br>On peut créer un répertoire nu à l'aide de la commande <code><a href="./git_init.html">git init --bare</a></code><br> ou cloner un dépôt git déjà existant à l'aide de <code><a href="./git_clone.html">git clone --bare url</a></code>.
+			</p>
+		</section>
+	    </div>
+    <footer>
+    	<p> © Groupe d'IN202 2014-2015 UVSQ - Par Damien Thenot</p>
+    </footer>
+
