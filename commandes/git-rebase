@@ -64,7 +64,7 @@
                         <code> git rebase --onto <new base> </code>
 
                         <div class="code">
-                            <code>Exemple d'affichage dans le terminal</code>
+                            <code>First rewinding head to replay your work on top of it...</code>
                         </div>
         </section>
         <h3 id="titreCommande">git rebase -i</h3>
@@ -76,7 +76,10 @@
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
-                        <code>Syntaxe d'utilisation de la commande</code>
+                        <code>
+                            Rebasing (1/1) <br>
+                            Successfully rebased and updated refs/heads/master.
+                        /code>
 
                         <div class="code">
                             <code>Exemple d'affichage dans le terminal</code>
