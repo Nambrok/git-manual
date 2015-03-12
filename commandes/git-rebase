@@ -20,28 +20,37 @@
         <div id="corps">
         <h3 id="titreCommande">git rebase</h3>
         <section class="descriptif">
-                <p>la fonction git rebase est là pour changer la "base" d’une branche, c’est-à-dire son point de départ.</p>
+                <p>la fonction git rebase est là pour changer le commit de base d’une branche, c’est-à-dire son point de départ.</p>
         </section>
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
-                        <code> git rebase <base> </code>
+                        <code> git rebase master gh-pages </code>
 
                         <div class="code">
-                            <code>Exemple d'affichage dans le terminal</code>
+                            <code>
+                            First, rewinding head to replay your work on top of it...<br>
+                            Applying: word 1<br>
+                            Applying: word 2<br>
+                            Applying: word 3<br>
+                            </code>
                         </div>
         </section>
          <h3 id="titreCommande">git rebase --abort</h3>
           <section class="descriptif">
-                <p>git rebase --abort</p>
+                <p>Cette fonction permet d'interrompre l'opération de rebase et de remettre le HEAD à la branche originale.
+               Si la <branche> a été fournie lors du commencement du rebase, alors le HEAD sera remis à la <branche> .
+                Sinon, le HEAD sera remis à où il était quand l'opération de rebase a été commencée.</p>
         </section>
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
-                        <code>Syntaxe d'utilisation de la commande</code>
+                        <code>git rebase --abort</code>
 
-                        <div class="code">
-                            <code>Exemple d'affichage dans le terminal</code>
+                        <div class="code"> : +0
+                            <code>C:\Users\Adam\Documents\GitHub\test [<de5b124...>:REBASE +0 ~0 -0 !1 : +0 ~0 -0 !1]> git rebase --abort <br>
+                                C:\Users\Adam\Documents\GitHub\test [gh-pages]>
+                            </code>
                         </div>
         </section>
         <h3 id="titreCommande">git rebase --onto </h3>
