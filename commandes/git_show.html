@@ -2,33 +2,33 @@
 <head>
 	<title>Git show </title>
 	<meta charset="UTF-8">
-	<link href="css/commandes.css" rel="stylesheet" type"text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div id="titre"> 
-		<h1> <a href="../index.html"> <img src="./images/logo.png" alt="logo" > </img> </a> <br>Le fantastique guide de Git</h1>
+		<h1> <a href="../index.html"> <img src="./images/logo.png" alt="logo" > </img> </a> <br>git show</h1>
 	</div>
+	
 	<div id="nav">
 		<nav>
 			<ul>
-				<li class="nolastmen"><a href="../index.html">Accueil</a></li>
-				<li><a href="../commandes.html">Commandes Git</a></li>
+				<li><a href="../index.html">Accueil</a></li>
 			</ul>
 		</nav>
-</div>
-<div id="corps">
-<h3 id="titreCommande">Git show </h3>
+	</div>
+	
+	<div id="corps">
+		<h4 id="titreCommande">Git show </h4>
 	
 	<section class="descriptif">
 		<p>Il s'agit de la commande qui permet de visualiser un ou plusieurs objets </p>
-	
 	</section>
 		
-		<section class="affichage">
-		    <h4>Syntaxe</h4>
-		        <div class="code"><code>git show </code></div>
-		    <h4> Affichage </h4>
+	<section class="affichage">
+	    <h4>Syntaxe</h4>
+	        <div class="code"><code>git show </code></div>
+	    <h4> Affichage </h4>
 		<div class="code"><code>
 		commit 7b9e0a9377ac070450c854ca0211fa4f8b39c45e <br>
 	        Merge: b8bd625 f4c193a <br>
@@ -39,17 +39,17 @@
 		</code></div> 
 	</section> 
 	
-			<h3>Git show < commit > </h3>
+	<h4>Git show < commit > </h4>
 	
 	<section class="descriptif">
 		<p>Il s'agit de la commande qui permet de visualiser un commit en particulier </p>
 	
 	</section>
 		
-		<section class="affichage">
-		    <h4>Syntaxe</h4>
-		        <div class="code"><code>git show < commit > </code></div>
-			<h4> Affichage </h4>
+	<section class="affichage">
+	    <h4>Syntaxe</h4>
+	        <div class="code"><code>git show < commit > </code></div>
+		<h4> Affichage </h4>
 		<div class="code"><code>
 		Author: Moumzy <thibault_100@hotmail.fr> <br>
 	        Date:   Thu Mar 12 09:36:58 2015 +0100 <br>
@@ -64,17 +64,17 @@
 		</code></div>
 	</section> 
 
-		<h3>Git show <branche> : < fichier > </h3>
+		<h4>Git show <branche> : < fichier > </h4>
 	
 	<section class="descriptif">
 		<p>Il s'agit de la commande qui permet de visualiser un document en particulier en précisant la branche ou il se situe. </p>
 	
 	</section>
 		
-		<section class="affichage">
-		    <h4>Syntaxe</h4>
-		        <div class="code"><code>git show < branche > : < fichier > </code></div>
-			<h4> Affichage </h4>
+	<section class="affichage">
+	    <h4>Syntaxe</h4>
+	        <div class="code"><code>git show < branche > : < fichier > </code></div>
+		<h4> Affichage </h4>
 		<div class="code"><code>
 		Author: Moumzy <thibault_100@hotmail.fr> <br>
 	        Date:   Thu Mar 12 09:49:52 2015 +0100 <br>
@@ -88,17 +88,17 @@
 		"description du terminal" <br>
 		</code></div>
 	</section> 
-	<h3>Git show --stat</h3>
+	<h4>Git show --stat</h4>
 	
 	<section class="descriptif">
 		<p>Il s'agit de la commande qui donne le nombre d'insertions et de déletions apportées sur le dernier commit en date</p>
 	
 	</section>
 		
-		<section class="affichage">
-		    <h4>Syntaxe</h4>
-		        <div class="code"><code>git show --stat</code></div>
-		    <h4> Affichage </h4>
+	<section class="affichage">
+		<h4>Syntaxe</h4>
+		    <div class="code"><code>git show --stat</code></div>
+		<h4> Affichage </h4>
 		<div class="code"><code>
 		commit bb95b4158ec0c843d5d67b1c3c0f76511f88b396 <br>
 		Author: SuzanneAir <suzanneair@live.fr> <br>
@@ -110,11 +110,10 @@
 		1 file changed, 13 insertions(+), 9 deletions(-) <br>
 		</code></div>
 	</section>
-		<h3>Git show --pretty</h3>
+		<h4>Git show --pretty</h4>
 	
 	<section class="descriptif">
 		<p>Il s'agit de la commande qui donne le format du document et les dernières modifications apportées</p>
-	
 	</section>
 		
 		<section class="affichage">
