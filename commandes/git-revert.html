@@ -22,9 +22,9 @@
 	
 	<section class="descriptif">
 		<p>La commande permet de rétablir des commits déjà éxistant. Elle sert donc
-		à "remonter le temps" et annuler l'effet de certains commit précédemment fait.<br>
+		à "remonter le temps" et annuler l'effet de certains commit précédemment fait
 		En réalité, la commande ne supprime pas le commit choisit mais créé un commit automatique sans
-		les modifications du commit choisit, à ne pas confondre avec <i>git reset</i>. <br>
+		les modifications du commit choisit, à ne pas confondre avec <i>git reset</i>.
 		Dans l'exemple, on fera un retour en arrière de 1 commit.</p>
 
 	</section>
@@ -51,7 +51,7 @@
 	<h3 id="titreCommande">git revert -e</h3>
 	
 	<section class="descriptif">
-		<p>Cette commande permet d'éditer le nouveau commit qui "supprimera" le commit choisit.<br>
+		<p>Cette commande permet d'éditer le nouveau commit qui "supprimera" le commit choisit.
 		La fonction <i>-e</i> ou <i>--edit</i> est l'option par defaut dans un terminal. </p>
 
 	</section>
@@ -70,11 +70,45 @@
 			Date: YY<br>
 				Le commit revert</code>
 			</div>
+			
+				<h3 id="titreCommande">git revert -n</h3>
+	
+	<section class="descriptif">
+		<p>Normalement la commande git revert crée automatiquement un commit dont le message renseigne le(s) commit annulé(s). Ici, on annule effectivement les commit désirés dans le répertoire git, mais on ne crée pas de nouveau commit.</p>
+
+	</section>
+	
+	<section id="affichage">
+		<h4>Syntaxe :</h4>
+			<code>git revert -n</code>
+		<h4>Affichage</h4>
+		
+		
+			<div class="code">		
+			<code>commit b166a65027383c626bbfea7f8bbbf50e4b5d24f7<br>
+Author: Utilisateur <user@lubuntu-13.04><br>
+Date:   Thu Mar 12 14:18:04 2015 +0100<br><br>
+
+    Revert "Commit à revert"<br><br>
+    
+    This reverts commit 7ecb55bfab82fa105c68d72b61cef11694c28a1d.<br><br>
+
+commit 7ecb55bfab82fa105c68d72b61cef11694c28a1d<br><br>
+Author: Utilisateur <user@lubuntu-13.04><br>
+Date:   Thu Mar 12 14:16:24 2015 +0100<br><br>
+
+    Commit à revert
+
+</code>
+			</div>
+	<section/>
+	
+			
 	<section/>
 	
 	</div>
 	<footer>		
-		<p> © Groupe d'IN202 2014-2015 UVSQ - Par nom des participants</p>
+		<p> © Groupe d'IN202 2014-2015 UVSQ - Par Yobero, pierre-cauletUVSQ</p>
 	</footer>
 	
 </body>
