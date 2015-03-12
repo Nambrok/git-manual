@@ -24,16 +24,24 @@
 		<div id="corps">
 		<section class="description">
 			<h3> > Qu'est ce que Git ? </h3>
-			<p>Git est un logiciel de contrôle de version utilisé pour le développement de projet, souvent logiciel. Les choses suivant sont les principales fonctionnalités de Git : </p>
-			<ul>
-				<li>Les<a href="#app_commit"> commits</a> sont les mise à jour des fichiers modifiés depuis le dernier commit. Ce sont les unités de sauvegarde de git.</li>
-				<li>Les <a href="#app_branch">branchs</a> sont des versions divergentes du même projet, par exemple pour testés des prototypes d'algorithme.</li>
-			</ul>			
+			<p>Git est un logiciel de contrôle de version décentralisé utilisé pour le développement de projet, souvent logiciel.</p>
+			<p>C'est un logiciel libre, par l'auteur du noyau Linux: Linus Torvalds.</p>
+			<p>Sa principale fonction est de gérer l'évolution du contenu d'une arborescence de versions de logiciel. Il stocke sur le disque local les différentes version d'un fichier.</p>
+			<p>Ce système de version décentralisé permet un développement facilité des logiciels libres. En effet, il suffit de cloner <i>(fork)</i> le projet libre en cours et ainsi obtenir une <i>version locale</i> du projet (ainsi que toutes les anciennes versions). Les modifications ensuite effectuées localement n'ont pas d'effet immédiat sur le projet principal. Il suffit ensuite d'effectuer une <i>pull request</i> au dossier principal pour soumettre ces modifications à la tête du projet. Ce procédé évite donc énormément d'écueils du système de sauvegarde projet centralisé.</p>
+			<p>Git permet donc un contrôle de version d'un projet via un système de <i>Commit</i>:</p>
+			<p>Le <i>Commit</i> est un objet contenant toutes les informations concernant les mises à jour des fichiers modifiés depuis le dernier objet commit. C'est l'unité de sauvegarde de Git. Chaque version du projet a donc son <i>commit</i>. Les commit sont classés par date (et se voient attribués un numéro de révision unique) et sont une suite incrémentale des changements appliqués sur le projet (ajout, modification ,suppression de fichiers). Tout est gardé et récupérable qu'elle que soient les modifications apportées entre temps.</p>
+			<p>Git possède également un système de <i>branche</i> de projet. Chaque branche d'un projet aura son propre historique de commits. Les branches sont des versions divergentes du même projet, par exemple pour tester des prototypes d'algorithme sur plusieurs versions avant de <i>merge</i> ces branches en une version commune.</p>
 		</section>
 
 		<section class="approfondissement">
-			<section id="app_commit">Les commits sont l'ensemble des modifications effectués sur un projet. Les commit sont classés par date (et se voient attribués un numéro de révision unique) et sont une suite <i>incrémentale</i> des changements appliqués sur le projet (ajout, modification ,suppression de fichiers). Tout est gardé et récupérable qu'elle que soient les modifications apportées entre temps.<a href="./commandes.html#commit">Les commits sont fait avec la commande commit.</a></section>
-			<section id="app_branch"></section>
+			<p>Git possède deux interfaces:
+			<ul>
+				<li>Une <a href="https://github.com/">interface web</a> permettant de visualiser le dossier central du projet.</p>
+				<li>Une interface console après l'installation du module git. C'est via cette interface que l'on effectue les fonctions de commit ou de branche.</p>
+			</ul>
+			<p>Ce site a pour fonction de répertorié ces principales commandes console de git et de donner une explication succinte de leur fonctionnement.</p>
+			<p>Sa création a mis à contribution les connaissances en HTML/CSS du groupe d'IN202 de l'Université de Versailles - Saint-Quentin, avec l'appui de Git pour la mise en commun des différentes pages et versions de celui-ci.</p>
+			<p>Toute l'équipe vous souhaite une bonne navigation.</p>
 		</section>
 	</div>
 	<footer>
