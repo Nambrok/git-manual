@@ -18,22 +18,22 @@
                 </nav>
         </div>
         <div id="corps">
+        <h3 id="titreCommande">git rebase</h3>
         <section class="descriptif">
-                <p>git rebase</p>
-              <!--Description de la commande -->
+                <p>la fonction git rebase est là pour changer la "base" d’une branche, c’est-à-dire son point de départ.</p>
         </section>
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
-                        <code>Syntaxe d'utilisation de la commande</code>
+                        <code> git rebase <base> </code>
 
                         <div class="code">
                             <code>Exemple d'affichage dans le terminal</code>
                         </div>
         </section>
+         <h3 id="titreCommande">git rebase --abort</h3>
           <section class="descriptif">
                 <p>git rebase --abort</p>
-              <!--Description de la commande -->
         </section>
 
         <section class="affichage">
@@ -44,25 +44,25 @@
                             <code>Exemple d'affichage dans le terminal</code>
                         </div>
         </section>
+        <h3 id="titreCommande">git rebase --onto </h3>
           <section class="descriptif">
-                <p>git rebase --onto <new base></p>
-              <!--Cette commande permet de redéfinir un nouveau point d'origine pour tout les nouveaux commits.
-              Ce nouveau point peut être initialisé à partir de n'importe quelle commit valide.-->
+                <p>Cette commande permet de redéfinir un nouveau point d'origine pour tout les nouveaux commits.
+              Ce nouveau point peut être initialisé à partir de n'importe quelle commit valide.></p>
         </section>
 
         <section class="affichage">
             <h4>Syntaxe :</h4>
-                        <code>Syntaxe d'utilisation de la commande</code>
+                        <code> git rebase --onto <new base> </code>
 
                         <div class="code">
                             <code>Exemple d'affichage dans le terminal</code>
                         </div>
         </section>
+        <h3 id="titreCommande">git rebase -i</h3>
           <section class="descriptif">
-                <p>git rebase -i</p>
-              <!--Cette commande présente une liste de tous les commits qui sont sur le point d'être "rebase".
+                <p>Cette commande présente une liste de tous les commits qui sont sur le point d'être "rebase".
               Cela permet à l'utilisateur de modifier la liste avec qu'elle ne soit "rebase". Cette commande
-              peut également être utilisée pour séparer certains commits.-->
+              peut également être utilisée pour séparer certains commits.</p>
         </section>
 
         <section class="affichage">
@@ -73,9 +73,9 @@
                             <code>Exemple d'affichage dans le terminal</code>
                         </div>
         </section>
+        <h3 id="titreCommande">git rebase --continue</h3>
           <section class="descriptif">
-                <p>git rebase --continue </p>
-              <!--Description de la commande -->
+                <p>Description de la commande </p>
         </section>
 
         <section class="affichage">
